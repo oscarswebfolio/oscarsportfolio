@@ -1,0 +1,169 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(73, 71, 75);
+} 
+
+/* HEADER */
+.header {
+    
+}
+
+/* MAIN */
+.main {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 1300px;
+    margin: auto;
+    margin-top: 80px;
+}
+.projects {
+    width: 300px;
+    height: 250px;
+    box-shadow: 0px 0px 1px rgb(122, 91, 201);
+    margin-top: 30px;
+    border-radius: 12px;
+}
+.projects__title {
+    text-align: center;
+    background-color: rgb(43, 40, 40);
+    color: white;
+    padding: 10px;
+    margin-top: 0px;
+    font-size: 24px;
+    border-radius: 12px 12px 0px 0px;
+}
+.projects__container {
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+    width: 300px;
+    margin: auto;
+}
+.projects__link {
+    text-decoration: none;
+}
+.projects-1 {
+    background: url('bootybodyyouth-website.png') center no-repeat;
+    background-size: cover;
+    background-position: 0px 39px;
+}
+.projects-2 {
+    background: url('boxlesslandingpage.png') center no-repeat;
+    background-size: cover;
+    background-position: 0px 35px;
+}
+.projects-3 {
+    background: url('MelyLash Studio.png') center no-repeat;
+    background-size: cover;
+    background-position: -90px 0px;
+}
+.projects-4 {
+    background: url('Boxing Timer.png') center no-repeat;
+    background-size: cover;
+    background-position: -40px 0px;
+}
+.projects-5 {
+    background: url('Document.png') center no-repeat;
+    background-size: cover;
+    background-position: -60px 50px;
+}
+.projects-6 {
+    background: url('GTN.png') center no-repeat;
+    background-size: cover;
+    background-position: -25px 30px;
+}
+.projects-7 {
+    background: url('JS CALCULATOR.png') center no-repeat;
+    background-size: cover;
+    background-position: -65px 50px;
+}
+.projects-8 {
+    background: url('oscar.png') center no-repeat;
+    background-size: cover;
+    background-position: -75px 40px;
+}
+.projects__info {
+    text-align: center;
+    font-size: 20px;
+    background-color: rgb(31, 29, 29);
+    border-radius: 3px;
+    color: white;
+    padding: 12px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 5px;
+    position: relative;
+    top: 20px;
+    opacity: 0.86
+}
+.projects__info:hover {
+    opacity: 1;
+}
+
+/* FOOTER */
+.footer {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(122, 91, 201);
+    margin-top: 0px;
+    top: 0;
+    position: fixed;
+}
+.bottom {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(122, 91, 201);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 160px;
+    margin: auto;
+}
+
+.bottom__link {
+    text-decoration: none;
+}
+.bottom__icon {
+    font-size: 28px;
+    position: relative;
+    top: 13px;
+    color: rgb(49, 49, 49);
+    transform: translateX(10px);
+}
+.bottom__icon:hover {
+    color: white;
+}
+.bottom__icon-1 {
+    font-size: 34px;
+    top: 12px;
+}
+.bottom__icon-2 {
+    font-size: 34px;
+}
+.bottom__icon-3 {
+    position: relative;
+    top: 15px;
+}
+@media screen and (min-width: 1000px) and (max-width: 1500px) {
+    .main {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 950px;
+
+    }
+}
+
+@media screen and (min-width: 650px) and (max-width: 1000px) {
+    .main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 630px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 650px) {
+    .main {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 300px;
+    }
+}
